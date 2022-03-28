@@ -69,10 +69,16 @@ body {
   margin: 0;
 }
 
-.card__content h1>span {
+.card__content .name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .625em;
+}
+
+.card__content .name > span {
   color: hsl(227, 10%, 46%);
   font-weight: 400;
-  margin-left: .5em;
 }
 
 .card__content p {
