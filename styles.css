@@ -24,6 +24,13 @@ body {
   place-content: center;
 }
 
+@media only screen and (min-width: 769px) {
+  body {
+    background-size: 100vw,75vw;
+    background-position: top -56.5vw left -50vw, bottom -49vw right -20vw;
+  }
+}
+
 .card {
   width: min(87.2vw,350px);
   background-color: white;
@@ -59,6 +66,7 @@ body {
   color: hsl(229, 23%, 23%);
   font-size: 1.125rem;
   text-align: center;
+  margin: 0;
 }
 
 .card__content h1>span {
@@ -70,7 +78,7 @@ body {
 .card__content p {
   color: hsl(227, 10%, 46%);
   font-size: .9rem;
-  margin-top: .75em;
+  margin-top: .5em;
   text-align: center;
 }
 
